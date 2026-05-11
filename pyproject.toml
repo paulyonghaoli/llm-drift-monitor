@@ -1,0 +1,13 @@
+[project]
+name = "llm-drift-monitor"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy==1.26.4",
+    "openai==1.9.0",
+    "pytest==8.4.0",
+    "python-dateutil==2.8.2",
+    "python-dotenv==1.0.0",
+    "sentence-transformers==2.2.2",
+    "huggingface-hub==0.15.1",
+]
